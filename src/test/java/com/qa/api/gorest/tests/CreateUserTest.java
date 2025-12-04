@@ -38,7 +38,7 @@ public class CreateUserTest extends BaseTest{
 		
 		String userJson = "{\n"
 				+ "    \"name\": \"Naveen Automation Labs CPA\",\n"
-				+ "    \"email\": \"naveen123@altenwerth.test\",\n"
+				+ "    \"email\": \"naveen1234@altenwerth.test\",\n"
 				+ "    \"gender\": \"male\",\n"
 				+ "    \"status\": \"active\"\n"
 				+ "}";
