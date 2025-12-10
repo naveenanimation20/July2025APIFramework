@@ -17,7 +17,7 @@ public class ConfigManager {
 		//mvn clean install -Denv=qa
 		//mvn clean install -- by default, tcs should be executed on QA env.
 		
-		String envName = System.getProperty("env", "qa");//qa
+		String envName = System.getProperty("env", "prod");//qa
 		System.out.println("Running test cases on env : "+ envName);
 		String fileName = "config_"+envName+".properties"; //config_qa.properties
 		
