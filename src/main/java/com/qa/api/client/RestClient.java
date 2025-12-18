@@ -260,7 +260,9 @@ public class RestClient {
 	}
 
 	
-	
+	public void imp() {
+		System.out.println("imp method");
+	}
 	
 	
 	

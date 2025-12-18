@@ -50,7 +50,7 @@ pipeline
             }
         }
           
-                
+          
         stage('Run Regression API Automation Tests on QA') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
@@ -60,7 +60,7 @@ pipeline
                 }
             }
         }
-                
+                        
      
         stage('Publish Allure Reports') {
            steps {
